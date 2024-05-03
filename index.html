@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Quest: Formulários POST</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formulários POST</h1>
+
+    <p>O <strong>post</strong> é o outro <i>valor</i> possível para escolher no <i>atributo</i> <strong>method</strong>.
+    </p>
+
+    <p>Diferente do <strong>get</strong> que passa as infomações como <strong>query string</strong>, o
+        <strong>post</strong> envia essas informações de forma mais segura.</p>
+
+    <p>Possibilitando o envio de senhas e infomações pessoais.</p>
+
+    <form action="index.html" method="post">
+        <label for="nome-usuario">Usuário</label>
+        <input type="text" name="nome-usuario" id="nome-usuario">
+        <br><br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha">
+        <br><br>
+        <input class="enviar" type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
